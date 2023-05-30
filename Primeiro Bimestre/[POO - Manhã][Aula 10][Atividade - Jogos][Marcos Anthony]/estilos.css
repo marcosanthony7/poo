@@ -1,0 +1,59 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #011517;
+}
+
+.container-jogos{
+    display: flex;
+    flex-wrap: wrap; /* Os itens não ficarão em uma única linha */
+    gap: 12px; /* Espaçamento entre os itens */
+}
+
+/* Para criar uma classe, inicie com ponto */
+.card{
+    width: 400px;
+    border: solid 1px #000000;
+    border-radius: 8px; /* Arredonda as quinas */
+    padding: 12px;  /* Espaço entre a borda e o conteúdo interno */
+
+    background-color: #00272B;
+    color: #f1d4d4;
+
+    box-shadow: 4px 4px 16px black;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 16px #ffdd00;
+}
+
+.card img{
+    width: 400px; /* Muda a largura */
+    height: 400px; /* Muda a altura */
+    object-fit: cover;
+}
+
+.nome{
+    color: #FFDD00;
+    font-size: 20pt;
+}
+
+.empresa{
+    color: #999999;
+}
+
+.criador{
+    color: #cccccc;
+}
+
+.classificacaoEtaria{
+    color: #ff6600;
+    font-size: 15pt;
+    font-weight: 700;
+}
+
+.sinopse{
+    color: #FFFFFF;
+    font-size: 10pt;
+    font-weight: 700;
+    text-align: justify;
+}

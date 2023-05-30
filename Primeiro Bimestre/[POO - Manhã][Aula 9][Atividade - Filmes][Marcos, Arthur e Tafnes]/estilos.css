@@ -1,0 +1,50 @@
+body{
+    background-color: #011517;
+}
+
+.container-filmes{
+    display: flex;
+    flex-wrap: wrap; /* Os itens não ficarão em uma única linha */
+    gap: 12px; /* Espaçamento entre os itens */
+}
+
+/* Para criar uma classe, inicie com ponto */
+.card{
+    border: solid 1px #000000;
+    border-radius: 8px; /* Arredonda as quinas */
+    padding: 12px;  /* Espaço entre a borda e o conteúdo interno */
+
+    background-color: #00272B;
+    color: #f1d4d4;
+
+    box-shadow: 4px 4px 16px black;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 16px #ffdd00;
+}
+
+.card img{
+    width: 400px; /* Muda a largura */
+    height: 600px; /* Muda a altura */
+    object-fit: cover;
+}
+
+.nome{
+    color: #FFDD00;
+    font-size: 20pt;
+}
+
+.genero{
+    color: #999999;
+}
+.ano{
+    color: #cccccc;
+}
+
+.diretor{
+    color: #ff6600;
+    text-align: right;
+    font-size: 20pt;
+    font-weight: 700;
+}
