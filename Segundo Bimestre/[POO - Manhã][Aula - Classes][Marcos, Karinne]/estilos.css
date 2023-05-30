@@ -1,0 +1,53 @@
+body{
+    background-color: #111111;
+}
+
+.container-cards{
+    display: flex;
+    gap: 12px;
+}
+
+.card{
+    border-radius: 16px;
+    border: 1px solid #dddddd;
+    padding: 20px;
+
+    box-shadow: #aaaaaa 2px 2px 4px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover{
+    box-shadow: 4px 8px 16px #ffffff;
+}
+
+.foto{
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info .modelo{
+    font-size: 16pt;
+    color: #ffffff;
+}
+
+.info .marca{
+    font-size: 12pt;
+    color: #aaaaaa;
+}
+
+.info .outros{
+    font-size: 12pt;
+    color: #00bfff;
+}
+
+.info .separator{
+    color: #00bfff;
+    padding: 6px;
+}
